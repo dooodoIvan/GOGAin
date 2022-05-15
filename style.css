@@ -1,0 +1,120 @@
+h1,
+h2,
+p {
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+
+.header {
+  max-width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__title {
+  font-size: 70px;
+}
+
+.header__label {
+  font-size: 50px;
+}
+
+
+
+
+
+.slogan {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+  font-size: 20px;
+}
+
+.slogan span {
+  display: block;
+  text-align: end;
+  font-size: 50px;
+}
+
+
+.description {
+  color: gray;
+}
+
+
+
+.feedback__page {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+}
+
+.feedback__page__title {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.feedback__page__title-button {
+  margin-left: 15px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.feedback__page__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+.tutotial__content__block {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+}
+
+.tutotial__content__block p {
+  border-top: 2px solid black;
+  padding: 30px 0px;
+}
