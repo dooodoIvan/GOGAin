@@ -1,11 +1,20 @@
-h1,
-h2,
+h1 {
+  margin: 0px;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 37px;
+  font-weight: 500;
+}
+
 p {
   margin: 0px;
 }
 
 body {
   margin: 0px;
+  font-family: Gilroy;
 }
 
 
@@ -23,9 +32,11 @@ body {
 }
 
 
+
+
 .header {
-  max-width: 100%;
-  height: 500px;
+  width: 100%;
+  height: 370px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -33,11 +44,17 @@ body {
 }
 
 .header__title {
-  font-size: 70px;
+  font-size: 80px;
+  height: 170px;
+}
+
+.header span {
+  color: #929291;
 }
 
 .header__label {
-  font-size: 50px;
+  font-size: 41px;
+  font-weight: 150;
 }
 
 
@@ -45,26 +62,45 @@ body {
 
 
 .slogan {
-  background-color: gray;
+  background-color: #F3F3F3;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px 0px;
-  font-size: 20px;
+  padding: 35px 0px;
+  font-size: 27px; 
+  font-weight: 500;
 }
 
 .slogan span {
   display: block;
   text-align: end;
-  font-size: 50px;
+  font-size: 18px;
+  color: #D0D0D0;
+  font-weight: 200;
+  margin-top: 10px;
 }
 
+
+
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0px auto;
+}
 
 .description {
-  color: gray;
+  color: #929291;
+  margin: 60px auto;
+  font-size: 19px;
+  font-weight: 200;
 }
 
 
+
+
+.feedback__title {
+  font-size: 30px;
+}
 
 .feedback__page {
   border: 2px solid black;
