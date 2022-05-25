@@ -245,7 +245,7 @@ body {
   font-size: 3.5vh;
   color: #929291;
   font-weight: 200;
-  margin-bottom: 40vh;
+  margin-bottom: 35vh;
 }
 
 .product__title {
@@ -258,15 +258,16 @@ body {
 }
 
 ul {
+  margin-top: 10vh;
   list-style: none;
   padding-left: 0px;
 }
 
 
 li:before {
-  content:  "—";
+  content:  "-";
   position: relative;
-  left: -5px;
+  margin-right: 10px;
 }
 
 .product__img {
@@ -277,26 +278,25 @@ li:before {
 
 .imgСhair {
   position: absolute;
-  width: 60vh;
-  top: -5vh;
+  width: 65vh;
   left: 20%;
   z-index: 3;
   transform: rotate(-10deg);
 }
 
 .imgSound {
-  width: 60vh;
+  width: 65vh;
   position: absolute;
-  top: 40%;
+  top: 45%;
   z-index: 1;
-  transform: rotate(20deg);
+  transform: rotate(10deg);
 }
 
 .imgVerse {
   width: 35vh;
   position: absolute;
-  top: 70%;
-  right: -15%;
+  top: 65%;
+  left: 75%;
   z-index: 2;
   transform: rotate(3deg);
 }
@@ -305,3 +305,41 @@ li:before {
 
 
 
+.support {
+  display: flex;
+}
+
+.support__text {
+  width: 93%;
+}
+
+.support__info {
+  margin-top: 6vh;
+  font-size: 3.4vh;
+  font-weight: 300;
+}
+
+.support__img {
+  position: relative;
+  width: 7%;
+}
+
+.imgMoneyOne {
+  position: absolute;
+  width: 20vh;
+  top: -15%;
+  left: -150%;
+}
+
+.imgMoneyTwo {
+  position: absolute;
+  width: 10vh;
+  top: 10%;
+  left: 50%;
+}
+
+.imgMoneyThree {
+  position: absolute;
+  width: 20vh;
+  top: 40%;
+}
