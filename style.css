@@ -257,14 +257,14 @@ body {
   width: 50%;
 }
 
-ul {
+ .product__text ul {
   margin-top: 10vh;
   list-style: none;
   padding-left: 0px;
 }
 
 
-li:before {
+.product__text li:before {
   content: "-";
   position: relative;
   margin-right: 10px;
@@ -419,4 +419,54 @@ li:before {
 
 .footer {
   background-color: #231F20;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.footerWrapper {
+  margin: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+.footer__feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footerTitle {
+  font-size: 10vh;
+
+}
+
+.footer__list {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__list  ul{
+  list-style-type: none;
+  padding: 0px;
+}
+
+
+
+
+.footer__images {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__img {
+  width: 5vh;
 }
